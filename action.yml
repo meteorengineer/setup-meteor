@@ -1,0 +1,8 @@
+name: 'Setup Meteor.js environment'
+description: 'Setup a Meteor.js and add it to the PATH'
+inputs:
+  meteor-release:
+    description: 'Specific Meteor.js release. For example: 1.8.2'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
