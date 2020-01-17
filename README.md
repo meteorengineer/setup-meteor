@@ -1,5 +1,7 @@
 # setup-meteor
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/meteorengineer/setup-meteor.svg)](https://greenkeeper.io/)
+
 This action sets up meteor environment for use in actions.
 
 # Usage
