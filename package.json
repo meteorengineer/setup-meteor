@@ -5,7 +5,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"no test specified\" && exit 0",
+    "build": "ncc build src/index.js -o dist"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
     "@actions/core": "^1.2.0",
     "@actions/github": "^1.1.0",
     "@actions/io": "^1.0.1"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.21.0"
   }
 }
