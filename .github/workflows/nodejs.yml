@@ -20,4 +20,6 @@ jobs:
       env:
         CI: true
     - name: Test
-      run: node dist/index.js
+      run: |
+        node dist/index.js
+        meteor --version
