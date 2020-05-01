@@ -27,7 +27,7 @@ jobs:
       - run: meteor npm test
 ```
 
-Real life 
+## Real life usage
 * [Example](https://github.com/CanyLink/meteor-client-bundler-project/blob/master/.github/workflows/nodejs.yml) of tests on push with ignoring of Markdown files
 * [Example](https://github.com/CanyLink/meteor-client-bundler-project/blob/master/.github/workflows/npmpublish.yml) of testing and publshing of package
 
