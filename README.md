@@ -8,17 +8,6 @@ This action sets up meteor environment for use in actions.
 
 See [action.yml](action.yml)
 
-Basic:
-```yaml
-steps:
-- uses: actions/checkout@v1
-- uses: meteorengineer/setup-meteor@v1
-  with:
-    meteor-release: '1.10.2'
-- run: meteor npm install
-- run: meteor npm test
-```
-
 Matrix Testing:
 ```yaml
 jobs:
@@ -31,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Setup meteor
-        uses: meteorengineer/setup-meteor@v1
+        uses: CanyLink/setup-meteor@v1.0.3
         with:
           meteor-release: ${{ matrix.meteor }}
       - run: meteor npm install
