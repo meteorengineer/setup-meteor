@@ -1,4 +1,4 @@
-name: 'Setup Meteor.js environment'
+name: 'Meteor.js CLI'
 description: 'Setup a Meteor.js and add it to the PATH'
 inputs:
   meteor-release:
