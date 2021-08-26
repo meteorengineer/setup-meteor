@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/meteorengineer/setup-meteor#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6",
+    "@actions/core": "^1.2.7",
     "@actions/github": "^2.2.0",
     "@actions/io": "^1.1.0"
   },
