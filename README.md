@@ -11,8 +11,8 @@ See [action.yml](action.yml)
 Basic:
 ```yaml
 steps:
-- uses: actions/checkout@v1
-- uses: meteorengineer/setup-meteor@v1
+- uses: actions/checkout@v2
+- uses: meteorengineer/setup-meteor@v2
   with:
     meteor-release: '1.8.1'
 - run: meteor npm install
@@ -31,7 +31,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Setup meteor
-        uses: meteorengineer/setup-meteor@v1
+        uses: meteorengineer/setup-meteor@v2
         with:
           meteor-release: ${{ matrix.meteor }}
       - run: meteor npm install
