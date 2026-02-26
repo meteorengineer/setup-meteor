@@ -7,6 +7,6 @@ git commit -m "npm run build"
 
 VERSION=$(npm version patch)
 git push origin $VERSION
-git tag --force v2
-git push --force origin v2
+git tag --force v3
+git push --force origin v3
 git push origin master

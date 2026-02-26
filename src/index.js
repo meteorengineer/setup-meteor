@@ -1,6 +1,6 @@
-const core = require('@actions/core');
-const { which } = require('@actions/io');
-const { execSync: exec } = require('child_process');
+import core from '@actions/core';
+import { which } from '@actions/io';
+import { execSync as exec } from 'child_process';
 
 (async () => {
   try {
